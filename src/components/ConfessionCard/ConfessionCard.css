@@ -1,0 +1,12 @@
+.confessions{
+    width:138px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+:root{
+    --cardColor:#F8AFA6;
+    --scrollWidth:8px;
+}

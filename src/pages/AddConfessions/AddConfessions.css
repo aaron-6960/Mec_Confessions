@@ -1,0 +1,20 @@
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input:focus {
+  outline: none;
+  border-color: #db34bc;
+  box-shadow: 0 rgb(197, 52, 219)gba(52, 152, 219, 0.5);
+}

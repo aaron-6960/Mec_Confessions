@@ -1,0 +1,40 @@
+body{
+  background-color: var(--background);
+  color: var(--fontcolor);
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.text{
+  color: var(--fontcolor);
+}
+input{
+  background-color: var(--background);
+  color: var(--fontcolor);
+}
+.card{
+  background-color: var(--cardColor);
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+  margin-bottom: min(10px);
+}
+:root{
+  --background:#f49d94;
+  --fontcolor:#ffe4e0;
+  --cardColor:#F8AFA6
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+::-webkit-scrollbar-thumb {
+  background: #facbc4;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--fontcolor);
+}

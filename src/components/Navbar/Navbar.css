@@ -1,0 +1,23 @@
+.Navbar{
+    background-color: var(--navbarcolor);
+    display: flex;
+    padding: 0px var(--titlepadding);
+    width: calc(100vw - var(--titlepadding) - var(--titlepadding) - 8px); 
+    box-shadow: 1px 1px 10px 1px rgb(221, 129, 144);
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    margin-top: 2px;
+    border-radius: 0px;
+}
+ul{
+    padding: 0;
+    margin-right:  3rem; ;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 2rem;
+}
+:root{
+    --titlepadding : 20px;
+    --navbarcolor : #F8AFA6;
+}
